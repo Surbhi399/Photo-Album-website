@@ -1,0 +1,183 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #ff6b6b;
+  }
+  
+  .carousel-inner {
+    border-radius: 8px;
+  }
+  
+  .carousel-item {
+    position: relative;
+    height: 400px;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .carousel-caption h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .services {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .services p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .gallery {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .gallery h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05);
+  }
+  
+  .about {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  
